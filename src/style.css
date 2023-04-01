@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  font-family: "Jost", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #242424;
+}
+
+header {
+  position: fixed;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+section {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img__1 {
+  background-image: url("/src/assets/images/image1.jpg");
+}
+
+.img__2 {
+  background-image: url("/src/assets/images/image2.jpg");
+}
+
+.img__3 {
+  background-image: url("/src/assets/images/image3.jpg");
+}
+
+.img__4 {
+  background-image: url("/src/assets/images/image4.jpg");
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
